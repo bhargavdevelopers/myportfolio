@@ -1,12 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import {
-  FaHome,
-  FaPhone,
-  FaMailBulk,
-  FaLinkedin,
-  FaGithub,
-} from "react-icons/fa";
+import { FaHome, FaPhone, FaLinkedin, FaGithub } from "react-icons/fa";
+import { BiLogoGmail } from "react-icons/bi";
 const Footer = () => {
   return (
     <div className="footer">
@@ -26,21 +21,20 @@ const Footer = () => {
               <p>Hyderbad.</p>
             </div>
           </div>
-          <div className="phone">
-            <h4>
-              <FaPhone
-                size={20}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />{" "}
-              9398400519
-            </h4>
+          <div className="icon">
+            <FaPhone size={20} style={{ color: "#fff", marginRight: "1rem" }} />{" "}
+            <span>9398400519</span>
           </div>
-          <div className="email">
-            <FaMailBulk
+          <div className="icon">
+            <BiLogoGmail
               size={20}
-              style={{ color: "#fff", marginRight: "1rem" }}
+              style={{
+                color: "#fff",
+                marginRight: "1rem",
+                marginTop: "0.5rem",
+              }}
             />{" "}
-            <h4>gbhargav.engineer@gmail.com</h4>
+            <span>gbhargav.engineer@gmail.com</span>
           </div>
         </div>
 

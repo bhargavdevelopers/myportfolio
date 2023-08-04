@@ -47,6 +47,11 @@ h4 {
   padding-bottom: 0.7rem;
 }
 
+span {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: bold;
+}
 p {
   font-size: 1.2rem;
 }
@@ -66,10 +71,16 @@ hr {
   .footer {
     padding: 0.8rem;
   }
+  span {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .footer-container {
     margin-left: 2rem;
+  }
+  span {
+    font-size: 1rem;
   }
 }
