@@ -13,8 +13,8 @@ const Heroimg = () => {
         <p> Hi, I'M Bhargav </p>
         <h1>Full-Stack Developer</h1>
         <p className="me">
-          Welcome to my portfolio! I am an enthusiastic and motivated fresher,
-          eager to make a mark in the IT Industry.
+          Welcome to my portfolio! I am working as a Associate Software
+          Developer with Data Integration Platforms at RESKOM Solutions.
         </p>
         <div>
           <a href={Resume} download className="btn">

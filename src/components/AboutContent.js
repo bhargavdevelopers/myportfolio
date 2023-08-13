@@ -8,10 +8,20 @@ const AboutContent = () => {
       <div className="left">
         <h1> About Me </h1>
         <p>
-          Welcome to my portfolio! I am an enthusiastic and motivated fresher,
-          eager to make a mark in the IT Industry. With a creative outlook and
-          an ambition to excel, I thrive on challenges and am adaptable to new
-          situations.
+          Welcome to my portfolio!{" "}
+          <span>
+            Currently I'm working as Associate Software Developer specially on
+            Data Integration Platforms at RESKOM Solutions.
+          </span>{" "}
+        </p>
+        <p>
+          I'm a Dedicated software developer with a focus on creating seamless
+          data integration solutions. Experienced in designing and implementing
+          robust data pipelines that drive efficiency and enable informed
+          decision-making. Committed to staying at the forefront of emerging
+          technologies and continuously enhancing my skills to deliver
+          innovative solutions. Let's connect and collaborate to bring
+          data-driven visions to life.
         </p>
         <p>
           Being a tech-savvy individual, I'm well-versed in modern technologies

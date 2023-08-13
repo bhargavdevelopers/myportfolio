@@ -1,5 +1,7 @@
 import React from "react";
 import "./MySkills.css";
+import { SiPostman } from "react-icons/si";
+import boomi from "../assets/boomi-icon.webp";
 const Skills = () => {
   return (
     <div className="skills">
@@ -9,6 +11,11 @@ const Skills = () => {
         quickly grasp new concepts and apply them to real-world scenarios.
       </p>
       <div className="skills-cards">
+        <article className="skills-card">
+          <img src={boomi} alt="boomi" className="icon-img" />
+          <h5>boomi</h5>
+        </article>
+
         <article className="skills-card">
           <i class="fa-brands fa-python" id="icon"></i>
           <h5>Python</h5>
@@ -52,6 +59,11 @@ const Skills = () => {
         <article className="skills-card">
           <i class="fa-brands fa-github" id="icon"></i>
           <h5>Github</h5>
+        </article>
+
+        <article className="skills-card">
+          <SiPostman id="icon" />
+          <h5>Postman</h5>
         </article>
       </div>
     </div>

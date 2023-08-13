@@ -17,7 +17,7 @@ const Footer = () => {
               }}
             />
             <div>
-              <p>Bhavani Nagar, Kukatpally.</p>
+              <p>Kukatpally.</p>
               <p>Hyderbad.</p>
             </div>
           </div>
@@ -42,20 +42,32 @@ const Footer = () => {
           <h4>Bhargav Gudumala</h4>
           <p>Full-stack Developer</p>
           <div className="social">
-            <FaLinkedin
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
-            <FaGithub
-              size={20}
-              style={{ color: "#fff", marginRight: "2rem" }}
-            />
+            <a
+              href="https://www.linkedin.com/in/g-bhargav/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
+            <a
+              href="https://github.com/bhargavdevelopers"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub
+                size={20}
+                style={{ color: "#fff", marginRight: "2rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>
       <hr />
       <div className="footer-copyright">
-        <small>&copy; Bhargav Portfolio. All rights reserved</small>
+        <small>&copy; Bhargav Portfolio. All rights reserved 2023</small>
       </div>
     </div>
   );
